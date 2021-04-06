@@ -1,6 +1,6 @@
 {
-  "name": "ng7-dynamic-breadcrumb-lib",
-  "version": "0.0.0",
+  "name": "ng7-dynamic-fragment-breadcrumb-lib",
+  "version": "0.1.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -53,8 +53,9 @@
     "tslint": "~6.1.0",
     "typescript": "4.0.5"
   },
-  "author": "Raja Rama Mohan Thavalam",
+  "author": "Vernal Liu, Raja Rama Mohan Thavalam",
   "contributors": [
+    "Vernal Liu <covernal@hotmail.com>",
     "Raja Rama Mohan Thavalam <rajarm.tavalam@gmail.com>"
   ]
 }

@@ -2,7 +2,7 @@
     <ol class="breadcrumb" *ngIf="breadcrumb.length">
         <ng-container *ngFor="let item of breadcrumb; let i = index">
             <li class="breadcrumb-item" [ngClass]="{'active': breadcrumb.length !== i+1}" [ngStyle]="{'font-size': fontSize}">
-                <a *ngIf="item?.url" [routerLink]="item?.url"  [ngStyle]="{'color': fontColor}">{{ item.label }}</a>
+                <a *ngIf="item?.url" [routerLink]="item?.url"  [ngStyle]="{'color': fontColor}" [fragment]="item?.fragment || ''">{{ item.label }}</a>
                 <span *ngIf="!item?.url" [ngStyle]="{'color': lastLinkColor}">{{ item.label }}</span>
             </li>
         </ng-container>
