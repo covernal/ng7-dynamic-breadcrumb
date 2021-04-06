@@ -9,7 +9,7 @@ import { AppComponent } from './app.component';
 // import { Ng7DynamicBreadcrumbModule } from '../../projects/ng7-dynamic-breadcrumb/src/public_api';
 // import { Ng7BootstrapBreadcrumbModule } from '../../projects/ng7-bootstrap-breadcrumb/src/public_api';
 // import { NgDynamicBreadcrumbModule } from '../../projects/ng-dynamic-breadcrumb/src/projects';
-import { NgDynamicBreadcrumbModule } from 'ng-dynamic-breadcrumb';
+import { NgDynamicBreadcrumbModule } from 'ng7-dynamic-fragment-breadcrumb-lib';
 
 @NgModule({
   declarations: [
